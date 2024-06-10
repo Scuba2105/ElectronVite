@@ -11,6 +11,7 @@ html {
   overflow-x: auto;
   --dark-theme: #182039;
   --med-theme: #1E2745;
+  --icon-theme: #2e3449;
   --blue-theme: #3E64FF;
   --yellow-theme: #F6D365;
   --beige-theme: #E2E8CE;
@@ -53,7 +54,8 @@ html {
 .main-icon {
   grid-row: 1 / span 1;
   grid-column: 1 / span 1;
-  background-color: #4b5574;
+  background-color: #2e3449;
+  border-bottom-right-radius: 30%;
 }
 
 .main-header {
